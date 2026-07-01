@@ -80,7 +80,7 @@ def render_sidebar() -> dict:
         "Knowledge Base size (GB)",
         min_value=0.5,
         max_value=100.0,
-        value=5.0,
+        value=0.5,
         step=0.5,
         help="Size of the knowledge base data",
     )
